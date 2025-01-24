@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    // Correct way to hide the div, working even without inline styles
+    document.getElementById("myDiv").style.visibility = "hidden";
+  </script>
+</body>
+</html>
